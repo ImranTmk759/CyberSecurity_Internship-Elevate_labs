@@ -45,7 +45,7 @@ Other hosts had mostly filtered or closed ports with no significant exposure.
  ### IP of Host device  
 ![IP](ip.png)
 
-### 🔍 Nmap Scan Output  
+### Nmap Scan Output  
 ![Nmap Output](nmapscan.png)
 
 ###  Wireshark SYN Filter  
@@ -60,11 +60,10 @@ tcp.flags.syn == 1 && tcp.flags.ack == 0
 ---
 
 
-### Conclusion
-This task provided hands-on experience in scanning a local network and analyzing the underlying traffic. It helped:
+## Conclusion
+This task helped us learn and experience scanning a local network and analyzing the underlying traffic. It helped:
 
 Identify potentially vulnerable services.
 
 Understand how SYN scans operate at the packet level.
 
-Reinforce the importance of reducing exposed ports to enhance network security.
