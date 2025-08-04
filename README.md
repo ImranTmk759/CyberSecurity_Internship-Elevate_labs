@@ -46,7 +46,7 @@ Other hosts had mostly filtered or closed ports with no significant exposure.
 ![IP](ip.png)
 
 ### 🔍 Nmap Scan Output  
-![Nmap Output](nmaprscan.png)
+![Nmap Output](nmapscan.png)
 
 ###  Wireshark SYN Filter  
 ![Wireshark SYN Filter](wireshark.png)
