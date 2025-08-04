@@ -1,0 +1,40 @@
+# Nmap 7.95 scan initiated Mon Aug  4 06:22:36 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0072s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 14:A7:2B:2A:FD:F3 (currentoptronics Pvt.Ltd)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0065s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 36:60:F9:07:8F:F0 (Unknown)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.00031s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: 44:AF:28:F1:AD:FB (Intel Corporate)
+
+Nmap scan report for 192.168.1.100
+Host is up (0.15s latency).
+All 1000 scanned ports on 192.168.1.100 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 36:60:F9:07:8F:F0 (Unknown)
+
+Nmap scan report for 192.168.1.14
+Host is up (0.0000060s latency).
+All 1000 scanned ports on 192.168.1.14 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 06:23:26 2025 -- 256 IP addresses (5 hosts up) scanned in 49.19 seconds
