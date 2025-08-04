@@ -42,11 +42,11 @@ Other hosts had mostly filtered or closed ports with no significant exposure.
 ---
 
 ##  Screenshots
- ### 📡 IP of Host device  
+ ### IP of Host device  
 ![IP](ip.png)
 
 ### 🔍 Nmap Scan Output  
-![Nmap Output](nmapresult.png)
+![Nmap Output](nmaprscan.png)
 
 ###  Wireshark SYN Filter  
 ![Wireshark SYN Filter](wireshark.png)
